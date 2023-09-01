@@ -3,4 +3,8 @@
         font-size: medium;
     }
 
+    .carousel .carousel-img {
+        min-height: 265px;
+    }
+
 }
