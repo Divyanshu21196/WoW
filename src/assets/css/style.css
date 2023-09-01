@@ -1,16 +1,12 @@
-
 /*******************************/
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #ffff;
+    color: #444444;
     font-weight: 400;
     background: #ffffff;
     font-family: 'Barlow', sans-serif;
 }
-html {
-    scroll-behavior: smooth;
-  }
 
 h1,
 h2, 
@@ -18,7 +14,7 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #3fdecf;
+    color: #202C45;
 }
 
 a {
@@ -155,7 +151,7 @@ a:focus {
     height: 75px;
     display: flex;
     align-items: center;
-    background: #000;
+    background: #ffffff;
 }
 
 .top-bar .logo {
@@ -165,7 +161,7 @@ a:focus {
 
 .top-bar .logo h1 {
     margin: -4px 0 0 0;
-    color: #fff;
+    color: #E81C2E;
     font-size: 50px;
     line-height: 50px;
     font-weight: 800;
@@ -174,7 +170,7 @@ a:focus {
 }
 
 .top-bar .logo h1 span {
-    color: #3fdecf;
+    color: #202C45;
 }
 
 .top-bar .logo img {
@@ -194,7 +190,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #3fdecf;
+    background: #202C45;
     border-radius: 40px;
 }
 
@@ -232,7 +228,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #7a7171;
+    background: #202C45;
 }
 
 .nav-bar.nav-sticky {
@@ -246,7 +242,7 @@ a:focus {
 
 .nav-bar .navbar {
     padding: 20px 0;
-    background: #7a7171 !important;
+    background: #202C45 !important;
     transition: .3s;
 }
 
@@ -266,7 +262,7 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #3fdecf;
+    color: #E81C2E;
 }
 
 .nav-bar .dropdown-menu {
@@ -279,13 +275,13 @@ a:focus {
 .nav-bar .btn.btn-custom {
     color: #202C45;
     background: #ffffff;
-    box-shadow: inset 0 0 0 0 #3fdecf;
+    box-shadow: inset 0 0 0 0 #E81C2E;
 }
 
 .nav-bar .btn:hover {
     color: #ffffff;
-    background: #3fdecf;
-    box-shadow: inset 200px 0 0 0 #3fdecf;
+    background: #E81C2E;
+    box-shadow: inset 200px 0 0 0 #E81C2E;
 }
 
 @media (min-width: 992px) {
@@ -320,6 +316,7 @@ a:focus {
     width: 100%;
     min-height: 400px;
     background: #ffffff;
+    margin-bottom: 45px;
 }
 
 .carousel .container-fluid {
@@ -352,11 +349,8 @@ a:focus {
     right: 0;
     bottom: 0;
     left: 0;
+    background: rgba(0, 0, 0, .5);
     z-index: 1;
-}
-
-.carousel-caption{
-    bottom: 13.25rem;
 }
 
 .carousel .carousel-img img {
@@ -366,6 +360,7 @@ a:focus {
 }
 
 .carousel .carousel-text {
+    position: absolute;
     max-width: 992px;
     padding: 0 15px;
     text-align: center;
@@ -377,7 +372,7 @@ a:focus {
 }
 
 .carousel .carousel-text h3 {
-    color: #3fdecf;
+    color: #E81C2E;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 4px;
@@ -620,7 +615,7 @@ a:focus {
     font-weight: 700;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #3fdecf;
+    color: #E81C2E;
 }
 
 .section-header p::after {
@@ -630,7 +625,7 @@ a:focus {
     height: 2px;
     left: 25%;
     bottom: 0;
-    background: #3fdecf;
+    background: #E81C2E;
 }
 
 .section-header.text-left p::after {
@@ -673,7 +668,6 @@ a:focus {
 .about {
     position: relative;
     width: 100%;
-    background-color: #000;
     padding: 45px 0 15px 0;
 }
 
@@ -705,7 +699,7 @@ a:focus {
 
 .about .about-content ul li i {
     margin-right: 8px;
-    color: #3fdecf;
+    color: #E81C2E;
 }
 
 
@@ -734,10 +728,10 @@ a:focus {
 }
 
 .service .service-item [class^="flaticon-"]::before {
-    margin: 90px;
+    margin: 0;
     font-size: 60px;
     line-height: 60px;
-    background-image: linear-gradient(#3fdecf, #202C45);
+    background-image: linear-gradient(#E81C2E, #202C45);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: .5s;
@@ -746,14 +740,12 @@ a:focus {
 .service .service-item h3 {
     margin-bottom: 10px;
     font-size: 20px;
-    color: #000;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 .service .service-item p {
     margin: 0;
-    color: #000;
 }
 
 
@@ -1954,7 +1946,7 @@ a:focus {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #3fdecf;
+    color: #E81C2E;
 }
 
 .footer .footer-link a {
@@ -2054,7 +2046,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #3fdecf;
+    color: #E81C2E;
     font-weight: 700;
     letter-spacing: 1px;
 }
