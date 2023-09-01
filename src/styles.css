@@ -262,6 +262,7 @@ a:focus {
     padding: 15px;
     font-weight: 500;
     letter-spacing: 1px;
+    font-size: 15px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -312,6 +313,10 @@ a:focus {
 
     .btn.btn-custom {
         font-size: 6px;
+    }
+
+    .navbar-nav {
+        display: none;
     }
 
 }
